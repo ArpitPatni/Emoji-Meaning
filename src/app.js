@@ -147,7 +147,7 @@ export default function App() {
         return (
           <span
             onClick={() => emojiClickHandler(emoji)}
-            style={{ fontSize: "2rem", padding: "0.5rem", cursor: "pointer" }}
+            style={{ fontSize: "2rem", padding: "1rem", cursor: "pointer" }}
             key={emoji}
           >
             {emoji}
